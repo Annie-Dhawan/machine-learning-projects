@@ -3,15 +3,20 @@
 * Performed Feature Engineering from the text of each job description to quantify the value companies put on python, excel, aws, and spark using different encoding techniques. 
 * Performed Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model and finally gone with Random Forest Regressor. 
 * Built a client facing API using flask.
+~ The page looks like this at the moment but there is always scope for improvement.
+
 ![alt text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/Screenshot%202022-08-23%20at%209.47.10%20PM.png)
 
-## Code and tools Used 
-**Python Version:** 3.7  
+#########################################################################################################################################################
+## TECH STACK USED:
+**Python Version:** 3.8  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```
 
+###########################################################################################################################################################
+
 ## Web Scraping using selenium
-Scraped over 1000 job postings from glassdoor.com. With each job, we got the following:
+Used already Web Scraped data over 1000 job postings from glassdoor.com. With each job, we got the following:
 *	Job title
 *	Salary Estimate
 *	Job Description
@@ -27,7 +32,9 @@ Scraped over 1000 job postings from glassdoor.com. With each job, we got the fol
 *	Revenue
 *	Competitors 
 
-## Data Cleaning(Amazing Part)
+#########################################################################################################################################################
+
+## Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created different variables according to the usecase:
 
 *	Parsed numeric data out of salary 
@@ -36,7 +43,7 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 *	Parsed rating out of company text 
 *	Made a new column for company state 
 *	Added a column for if the job was at the company’s headquarters
-* Added a column to check whether the job posting location is same as headquarter location as it plays an important role in salary prediction. 
+*  Added a column to check whether the job posting location is same as headquarter location as it plays an important role in salary prediction. 
 *	Transformed founded date into age of company 
 *	Made columns for if different skills were listed in the job description:
     * Python  
@@ -46,7 +53,8 @@ After scraping the data, I needed to clean it up so that it was usable for our m
     * Spark 
 *	Column for simplified job title and Seniority 
 *	Column for description length 
-
+*	
+#########################################################################################################################################################
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
@@ -67,4 +75,6 @@ I tried three different models:
 *	**Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit and it is a good fit after performing hyperparameter optimization using grid search CV. 
 
 ## Productionization 
-This is a final step in this, I built a flask API endpoint that was hosted on a local webserver by following along with the TDS tutorial. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary which turns out to best approach. 
+This is a final step in this, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary which turns out to best approach.
+
+Thank You
