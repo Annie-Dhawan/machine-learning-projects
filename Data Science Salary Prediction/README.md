@@ -7,13 +7,13 @@
 
 ![alt text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/Screenshot%202022-08-23%20at%209.47.10%20PM.png)
 
-#########################################################################################################################################################
+
 ## TECH STACK USED:
 **Python Version:** 3.8  
 **Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle  
 **For Web Framework Requirements:**  ```pip install -r requirements.txt```
 
-###########################################################################################################################################################
+
 
 ## Web Scraping using selenium
 Used already Web Scraped data over 1000 job postings from glassdoor.com. With each job, we got the following:
@@ -32,7 +32,6 @@ Used already Web Scraped data over 1000 job postings from glassdoor.com. With ea
 *	Revenue
 *	Competitors 
 
-#########################################################################################################################################################
 
 ## Data Cleaning
 After scraping the data, I needed to clean it up so that it was usable for our model. I made the following changes and created different variables according to the usecase:
@@ -53,8 +52,7 @@ After scraping the data, I needed to clean it up so that it was usable for our m
     * Spark 
 *	Column for simplified job title and Seniority 
 *	Column for description length 
-*	
-#########################################################################################################################################################
+
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
