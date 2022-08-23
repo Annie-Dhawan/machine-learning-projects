@@ -56,10 +56,10 @@ After scraping the data, I needed to clean it up so that it was usable for our m
 ## EDA
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables. 
 
-![alt text](https://github.com/architsharrma/DataScience_glassdoor_salary_project/blob/main/salary.png "Salary distribution")
-![alt text](https://github.com/architsharrma/DataScience_glassdoor_salary_project/blob/main/top%2020%20headquarters.png "Top 20 headquarters")
-![alt text](https://github.com/architsharrma/DataScience_glassdoor_salary_project/blob/main/insights.PNG "Insights")
-![alt_text](https://github.com/architsharrma/DataScience_glassdoor_salary_project/blob/main/correlation.png "Correlation")
+![alt text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/salary.png)
+![alt text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/top%2020%20headquarters.png)
+![alt text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/insights.PNG)
+![alt_text](https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Data%20Science%20Salary%20Prediction/correlation.png)
 
 ## Model Building 
 
