@@ -1,4 +1,4 @@
-# DataScience_glassdoor_salary_project: Project Overview 
+# DataScience Glassdoor Salary Prediction: Project Overview 
 * Created a tool that estimates data science salaries (MAE ~ $ 11K with R2 Score ~ 78%) to help data scientists and data analyst negotiate their income when they get a job.
 * Performed Feature Engineering from the text of each job description to quantify the value companies put on python, excel, aws, and spark using different encoding techniques. 
 * Performed Optimized Linear, Lasso, and Random Forest Regressors using GridsearchCV to reach the best model and finally gone with Random Forest Regressor. 
@@ -75,4 +75,4 @@ I tried three different models:
 ## Productionization 
 This is a final step in this, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with a list of values from a job listing and returns an estimated salary which turns out to best approach.
 
-Thank You
+Thank You !
