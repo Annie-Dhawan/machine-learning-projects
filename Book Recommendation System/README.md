@@ -8,13 +8,6 @@ A simple web application which uses Cosine Similiarity to give Book Recommendati
 
 I am an avid reader and one day while I was reading my favorite novel 'Harry Potter' I was just thinking if there are any other novels related to this book. So being a Data and ML enthusiast I thought of developing a 'Book Recommendation System' which takes input from user and gives the result. 
  
-
-  
-**A Pic of the Web App :**
-
-
- 
- 
  ### Technical Aspect
  
  This Project is mainly divided into two parts:
@@ -24,8 +17,9 @@ I am an avid reader and one day while I was reading my favorite novel 'Harry Pot
 
 
 ### Tech Stack Used: 
-  *Python Version: 3.8
-  *Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+  * Python Version: 3.8
+  
+  * Packages: pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
 
 ### Future work 
 
