@@ -51,16 +51,17 @@ We observe that the oldest person in the dataset is 61 years old and the younges
 #### What is the income distribution in different age groups? 
 
 Teenagers are higher earners with age group of 25-35 earning 58k-68k.
-We can see that smallest income is dollar 13,996 and the highest is dollar 79,484. This means people are from different social groups. Also we are analyzing a popular website since the time user spend on the website in an average is 65 minutes and min time spent by them is 32 min and max time is 91 min in one seassion. These are huge numbers.
+We can see that smallest income is dollar 13,996 and the highest is dollar 79,484. This means people are from different social groups. 
 
 <img width="475" alt="screen shot 2018-12-06 at 6 13 34 pm" src="https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Ad-Click-Prediction/income.png">
 
 
 #### Which age group is spending maximum time on the internet? 
 
-Age group of 25-40 is most active on the internet.
+Age group of 25-40 is most active on the internet. Also we are analyzing a popular website since the time user spend on the website in an average is 65 minutes and min time spent by them is 32 min and max time is 91 min in one seassion. These are huge numbers.
 
-<img width="502" alt="screen shot 2018-12-06 at 6 17 39 pm" src="https://user-images.githubusercontent.com/22437872/49623610-3d57db00-f983-11e8-86e5-1b0bb624ffb8.png">
+
+<img width="502" alt="screen shot 2018-12-06 at 6 17 39 pm" src="https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Ad-Click-Prediction/age%20and%20time%20spent.png">
 
 
 
@@ -70,17 +71,23 @@ Based on below data we can see that a greater number of females have clicked on 
 
 <img width="261" alt="screen shot 2018-12-06 at 6 19 38 pm" src="https://user-images.githubusercontent.com/22437872/49623712-94f64680-f983-11e8-8572-ac20a0239c4d.png">
 
+#### Correlation: 
+1. We can see that there is a positive correatin of Clicked on Ads and age i.e when age increases Clicked on Ads also increases. This means old people     click on ads more.
+2. We can see that there is negative correlation between Clicked on Ads and features like- Daily Time Spent on Site,Area Income,Daily Internet Usage.
+3. There is no relation of Clicked on Ads and Gender.
 
-#### Maximum number of internet users belong to which country in the given dataset?
+<img width="261" alt="screen shot 2018-12-06 at 6 19 38 pm" src="https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Ad-Click-Prediction/cor.png">
 
-Based on the below dataframe we can observe that maximum number of users are from France and Czech.
-
-<img width="449" alt="screen shot 2018-12-06 at 6 24 10 pm" src="https://user-images.githubusercontent.com/22437872/49623842-28c81280-f984-11e8-913f-4c7c0c6611cb.png">
-
+### Models 
+The following models(with accuracies) have been used to build this:
+1. Logistic Regression (accuracy - 0.97)
+2. Naive Bayes (accuracy - 95.75)
+3. Random Forest (accuracy - 0.965)
+4. Decision Tree (accuracy - 0.94)
 
 ### Conclusion 
 
-Comparing all the above implementation models, we conclude that Naive Bayes Algorithm gives us the maximum accuracy for determining the click  probability. We believe in future there will be fewer ads, but they will be more relevant. And also these ads will cost more and will be worth it. 
+Comparing all the above implementation models, we conclude that Logistic Regression gives us the maximum accuracy for determining the click  probability. We believe in future there will be fewer ads, but they will be more relevant. And also these ads will cost more and will be worth it. Our model can basically predict if a certain customer will see the ad or not and it will save us huge amount of money as it will tell us before hand only whether to invest on that customer or not.
 
 
 
