@@ -15,6 +15,10 @@ Few assumptions made as a part of this project is:
 2)	There is almost equal ratio of male and female internet users. 
 3)	The ad topic is limited to what is given in the dataset.
 
+### Tech Stack Used:
+1. Python
+2. Libraries like: Sklearn,pandas,Numpy,matplotlib and seaborn
+
 ### Data Set
 
 The dataset consists of below features:
