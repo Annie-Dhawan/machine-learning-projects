@@ -51,8 +51,9 @@ We observe that the oldest person in the dataset is 61 years old and the younges
 #### What is the income distribution in different age groups? 
 
 Teenagers are higher earners with age group of 25-35 earning 58k-68k.
+We can see that smallest income is dollar 13,996 and the highest is dollar 79,484. This means people are from different social groups. Also we are analyzing a popular website since the time user spend on the website in an average is 65 minutes and min time spent by them is 32 min and max time is 91 min in one seassion. These are huge numbers.
 
-<img width="475" alt="screen shot 2018-12-06 at 6 13 34 pm" src="https://user-images.githubusercontent.com/22437872/49623471-adb22c80-f982-11e8-9b94-85bf14b152cd.png">
+<img width="475" alt="screen shot 2018-12-06 at 6 13 34 pm" src="https://github.com/Annie-Dhawan/machine-learning-projects/blob/main/Ad-Click-Prediction/income.png">
 
 
 #### Which age group is spending maximum time on the internet? 
