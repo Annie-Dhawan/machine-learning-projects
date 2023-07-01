@@ -25,9 +25,6 @@ https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
 Objective:
 - Obtain the data inside the html page containing a list of Toronto postal codes in the form of table and transform the data into a pandas dataframe!
 
-You can see the process in [Pre1_Web_Scraping.ipynb](https://github.com/diardanoraihan/Coursera_Capstone/blob/main/Pre1_Web_Scraping.ipynb)
-
-
 ### 2. Coordinate Retrieval: Toronto Postal Codes
 
 Objective:
