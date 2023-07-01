@@ -9,10 +9,10 @@ __Target Audience__:
 - Entrepeneurs, Business Owners, Stakeholders, Data Scientists
 
 __Datasets__:
-- [1st Data](https://tinyurl.com/vehicle-foot-traffic): The most updated record of traffic signal vehicle and pedestrian volumes in Toronto City. 
-- [2nd Data](https://tinyurl.com/toronto-mci): The most updated record of crime incidents reported in Toronto City provided by Toronto Police Services.
-- [3rd Data](https://tinyurl.com/toronto-postal-code): The list of Toronto neighborhoods represented by postal codes and their boroughs. 
-- [4th Data](https://developer.foursquare.com/): The popular or most common venues of a given neighborhood in Toronto. 
+- [1st Data]: The most updated record of traffic signal vehicle and pedestrian volumes in Toronto City. 
+- [2nd Data]: The most updated record of crime incidents reported in Toronto City provided by Toronto Police Services.
+- [3rd Data]: The list of Toronto neighborhoods represented by postal codes and their boroughs. 
+- [4th Data]: The popular or most common venues of a given neighborhood in Toronto. 
 
 
 The followings are the step by step process for working with the project:
